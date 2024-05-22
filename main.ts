@@ -4,9 +4,9 @@ function b_p () {
         compteur = 5
         for (let index = 0; index < 5; index++) {
             if (compteur > 0) {
-                pins.digitalWritePin(DigitalPin.P0, 0)
+                pins.digitalWritePin(DigitalPin.P0, 1)
                 pins.digitalWritePin(DigitalPin.P1, 0)
-                pins.digitalWritePin(DigitalPin.P2, 1)
+                pins.digitalWritePin(DigitalPin.P2, 0)
                 pins.digitalWritePin(DigitalPin.P12, 0)
                 pins.digitalWritePin(DigitalPin.P13, 1)
                 basic.showString("" + (compteur))
